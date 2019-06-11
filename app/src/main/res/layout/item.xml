@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主版块"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019年6月11日09:57:59"/>
+        <TextView
+            android:id="@+id/item_tite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="团结一心" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
